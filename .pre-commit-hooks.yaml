@@ -1,0 +1,7 @@
+- id: dotnet-format-check
+  name: dotnet format check
+  description: Check that C# files are formatted with dotnet format
+  entry: hooks/dotnet-format-check.sh
+  language: script
+  files: \.cs$
+  pass_filenames: true
