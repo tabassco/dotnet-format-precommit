@@ -3,5 +3,5 @@
   description: Check that C# files are formatted with dotnet format
   entry: hooks/dotnet-format-check.sh
   language: script
-  files: \.cs$
+  files: [c#]
   pass_filenames: true
