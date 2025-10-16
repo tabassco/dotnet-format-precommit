@@ -1,0 +1,6 @@
+# Example configuration for users of this hook
+repos:
+  - repo: https://github.com/tabassco/dotnet-format-precommit
+    rev: v1.0.0  # Replace with actual version tag
+    hooks:
+      - id: dotnet-format-check
